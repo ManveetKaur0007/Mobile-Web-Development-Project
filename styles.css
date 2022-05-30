@@ -1,5 +1,52 @@
+@charset "utf-8";
+
+/*
+   Style Sheet
+   Author: Manveet Kaur
+   Student Id: W0782002
+   Date: 2022/05/31
+   Filename: styles.css
+   Section: 065
+*/
+
+/*MAIN STYLING*/
 html, body{
+    font-family: Garamond, serif;
     margin: 0;
     padding: 0;
     font-size: 12px;
+}
+
+/*HEADING STYLING*/
+h1, h2 {
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+/*LIST STYLING*/
+li {
+    font-weight: bold;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    box-sizing: border-box;
+}
+
+/*FOOTER STYLING*/
+footer {
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 4%;
+	font-family: Garamond, serif;
+}
+
+/*MEDIA STYLING*/
+@media screen and (max-width: 700px){
+
+    
+}
+
+@media screen and (max-width: 500px){
+    html{
+        font-size: 16px;
+    }
 }
