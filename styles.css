@@ -53,13 +53,14 @@ footer {
 }
 
 /*MEDIA STYLING*/
-@media screen and (max-width: 700px){
-
-    
+@media screen and (max-width: 700px) {
+    .content{
+        width: 100%;
+    }
 }
-
 @media screen and (max-width: 500px){
-    html{
+    .content{
         font-size: 16px;
     }
+    
 }
