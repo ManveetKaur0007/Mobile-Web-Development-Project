@@ -31,8 +31,21 @@ li {
     box-sizing: border-box;
 }
 
+/*COLUMN STYLING*/
+.content{
+    float: left;
+    width: 25%;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*FOOTER STYLING*/
 footer {
+    
 	text-align: center;
 	font-size: 1.2em;
 	margin-top: 4%;
