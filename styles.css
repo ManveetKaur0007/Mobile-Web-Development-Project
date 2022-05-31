@@ -37,7 +37,7 @@ li {
     width: 25%;
 }
 
-.row:after{
+.data:after{
     content: "";
     display: table;
     clear: both;
