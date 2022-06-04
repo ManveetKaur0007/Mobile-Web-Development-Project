@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*
+   Style Sheet
+   Author: Manveet Kaur
+   Student Id: W0782002
+   Date: 2022/06/04
+   Filename: styles.css
+   Section: 065
+*/
+
+/*MAIN STYLING*/
+html, body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background-color: cadetblue;
+}
+
+/*NAVIGATION STYLING*/
+
+/*HEADING STYLING*/
+h1{
+    padding: 5px 0px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px lightgray;
+}
+/*FOOTER STYLING*/
+footer {
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 4%;
+	font-family: cursive;
+}
