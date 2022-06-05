@@ -4,21 +4,22 @@
    Style Sheet
    Author: Manveet Kaur
    Student Id: W0782002
-   Date: 2022/06/04
+   Date: 2022/06/05
    Filename: styles.css
    Section: 065
 */
 
 /*MAIN STYLING*/
-html, body{
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    background-color: cadetblue;
+html{
+	position: relative; 
+    background-color: rgb(205, 255, 234);
+	font-size: 1.2em;
 }
 
-/*NAVIGATION STYLING*/
+/* UNIVERSAL SELECTOR*/
+*{ 
+    font-family: "Courier New", "Lucida Console", "Monaco";
+}
 
 /*HEADING STYLING*/
 h1{
@@ -27,26 +28,19 @@ h1{
     text-align: center;
     text-shadow: 2px 2px lightgray;
 }
-/*FOOTER STYLING*/
-footer {
+
+/*FOOTER*/
+footer{
 	text-align: center;
 	font-size: 1.2em;
 	margin-top: 4%;
-	font-family: cursive;
+	border-top: 3px solid rgb(0, 0, 0);
+	font-family: Garamond, serif;
+	padding-bottom: 20px;
 }
 
-/*MEDIA STYLING for swapImages.html*/
-@media only screen and (max-width: 600px) {
-    .portrait{
-        display: none;
-    }
-}
-@media only screen and (min-width: 600px) {
-    .landscape{
-        display: none;
-    }
-}
-/*MEDIA STYLING for pictureTag.html*/
+
+/*MEDIA STYLING*/
 @media only screen and (max-width: 600px) {
     .portrait{
         display: none;
@@ -60,22 +54,40 @@ footer {
 
 /*MEDIA STYLING for NAVIGATION*/
 @media only screen and (min-width: 600px) {
-    header {
-        background-color: white;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 80px;
-        display: flex;
-        align-items: center;
+    nav {
+	
+        overflow: hidden;
+        background-color: rgb(51, 51, 51);
     }
-    
-    .nav {
-        display: inline;
+    nav a {
+        float: right;
+        display: block;
+        color: #ececec;
+        text-align: center;
+        padding: 14px 16px;
     }
-    
-    .nav-li {
-        margin: 20px;
+    nav a:hover {
+        background-color: rgba(255, 99, 71, 0.5);
+        color: black;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+	
+        overflow: hidden;
+        background-color: rgb(51, 51, 51);
+    }
+    nav a {
+        float: center;
+        display: flex;
+        color: #ececec;
+        text-align: center;
+        padding: 14px 16px;
+    }
+    nav a:hover {
+        background-color: rgba(255, 99, 71, 0.5);
+        color: black;
+    }
+}
+
