@@ -4,11 +4,35 @@
    Style Sheet
    Author: Manveet Kaur
    Student Id: W0782002
-   Date: 2022/06/05
+   Date: 2022/06/19
    Filename: styles.css
    Section: 065
 */
+/*BODY STYLING*/
 html, body{
     margin: 0;
     padding: 0;
+}
+header footer{
+    text-align: center;
+    max-width: 1024;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+
+/* UNIVERSAL SELECTOR*/
+*{ 
+    font-family: "Courier New", "Lucida Console", "Monaco";
+}
+
+/*FOOTER*/
+footer{
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 4%;
+	border-top: 3px solid rgb(0, 0, 0);
+	font-family: Garamond, serif;
+	padding-bottom: 20px;
 }
