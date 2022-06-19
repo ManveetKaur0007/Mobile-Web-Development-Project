@@ -11,18 +11,20 @@
 
 .content-wrapper{
    margin: 10px;
-   max-width: 1150px;
+   max-width: 1024px;
    margin: 0 auto;
-   border: 3px solid black;
+   border: 3px dashed black;
    padding: 10px;
    box-sizing: border-box;
+   background-color:teal ;
 }
 
 
 [class*="col-"]{ 
    float: left;
    padding: 5px; 
-   border: 1px solid rebeccapurple; 
+   border: 5px double rebeccapurple; 
+   border-bottom: 2px solid rebeccapurple;
    text-align: center;
    box-sizing: border-box;
    background-color: black;
@@ -35,10 +37,13 @@
    margin: 0 0 10px 0;
 }
 .col-1{
-   width: calc(100% / 12);
+   /*I changed 12 to 10 to match my HTML style*/
+   width: calc(100% / 10);
+   font-size: 1.2em;
 }
 .col-2{
    width: calc(100% / 6);
+   font-size: 1.01em;
 }
 .col-3{
    width: calc(100% / 4);
