@@ -4,11 +4,12 @@
    Style Sheet
    Author: Manveet Kaur
    Student Id: W0782002
-   Date: 2022/06/19
+   Date: 2022/06/20
    Filename: styles.css
    Section: 065
 */
 
+/*TABLE STYLING*/
 .content-wrapper{
    margin: 10px;
    max-width: 1024px;
@@ -19,7 +20,7 @@
    background-color:teal ;
 }
 
-
+/*COLUMN STYLING*/
 [class*="col-"]{ 
    float: left;
    padding: 5px; 
@@ -36,10 +37,10 @@
    display: table;
    margin: 0 0 10px 0;
 }
+
+/*12 COLUNM GRID*/
 .col-1{
-   /*I changed 12 to 10 to match my HTML style*/
-   width: calc(100% / 10);
-   font-size: 1.2em;
+   width: calc(100% / 12);
 }
 .col-2{
    width: calc(100% / 6);
@@ -74,4 +75,11 @@
 }
 .col-12{
    width: 100%;
+}
+
+/*MEDIA STYLING*/
+@media only screen and (max-width: 500px) {
+   [class*="col-"]{
+       width: 100%;
+   }
 }

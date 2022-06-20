@@ -1,13 +1,13 @@
 @charset "utf-8";
-
 /*
    Style Sheet
    Author: Manveet Kaur
    Student Id: W0782002
-   Date: 2022/06/19
+   Date: 2022/06/20
    Filename: styles.css
    Section: 065
 */
+
 /*BODY STYLING*/
 html, body{
     margin: 0;
@@ -20,8 +20,17 @@ header footer{
     max-width: 1024;
     margin: 0 auto;
 }
+
+/*HEADING STYLING*/
 h1{
     text-align: center;
+}
+
+/*IMAGE STYLING*/
+#image{
+    border: 5px double rebeccapurple; 
+    margin: 0 auto;
+    display: block;
 }
 
 /* UNIVERSAL SELECTOR*/
@@ -29,7 +38,7 @@ h1{
     font-family: "Courier New", "Lucida Console", "Monaco";
 }
 
-/*FOOTER*/
+/*FOOTER STYLING*/
 footer{
 	text-align: center;
 	font-size: 1.2em;
@@ -38,3 +47,10 @@ footer{
 	font-family: Garamond, serif;
 	padding-bottom: 20px;
 }
+
+/*MEDIA STYLING for IMAGES*/
+@media only screen and (min-width: 500px) {
+    #image{
+        width: 60%;
+    }
+ }
