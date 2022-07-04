@@ -9,9 +9,14 @@
    Section: 065
 */
 
+/*UNIVERSAL STYLING*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 html, body{
-    margin: 0;
-    padding: 0;
+    margin: 15;
+    padding: 15;  
 }
 
 #error{
@@ -23,6 +28,18 @@ html, body{
     background-color: aliceblue;
     color: green;
 }
+
+/*FOOTER STYLING*/
+footer{
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 4%;
+	border-top: 3px solid rgb(0, 0, 0);
+	font-family: Garamond, serif;
+	padding-bottom: 20px;
+}
+
+/*MEDIA STYLING*/
 @media only screen and (min-width: 700px) {
 ::placeholder {
     color: white;
@@ -33,4 +50,4 @@ html, body{
     ::placeholder {
         color: black;
       }
-    }
+}
