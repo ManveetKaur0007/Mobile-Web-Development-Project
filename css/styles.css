@@ -13,3 +13,13 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+#error{
+    background-color: aliceblue;
+    color: red;
+}
+
+#success{
+    background-color: aliceblue;
+    color: green;
+}
