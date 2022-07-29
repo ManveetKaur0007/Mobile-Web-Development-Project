@@ -6,3 +6,7 @@
   Filename: script.js
   Section: 065
 */
+
+$(function (){
+  navigator.geolocation.getCurrentPosition(showPosition);
+});
