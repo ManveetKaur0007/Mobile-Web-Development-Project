@@ -12,3 +12,8 @@ html, body{
     margin: 0;
     padding: 0;
 }
+h3{
+    background-color: antiquewhite;
+    font-weight: bolder;
+    color: black;
+}
